@@ -1,18 +1,18 @@
 function displayRandomAd() {
   // Define an array with the ad codes
   const adCodes = [
-    '<![CDATA[<script type="text/javascript">'
+    '<script type="text/javascript">'
     + 'atOptions = {'
-    + "\'key\' : \'cb1082b19269584f275682ffff55e3c1\',"
-    + "\'format\' : \'iframe\',"
-    + "\'height\' : 250,"
-    + "\'width\' : 300,"
-    + "\'params\' : {}"
+    + "'key' : 'cb1082b19269584f275682ffff55e3c1',"
+    + "'format' : 'iframe',"
+    + "'height' : 250,"
+    + "'width' : 300,"
+    + "'params' : {}"
     + '};'
-    + "document.write(\'<scr\' + \'ipt type=\"text/javascript\" src=\"http\' + (location.protocol === \'https:\' ? \'s\' : \'\') + \'://www.profitabledisplaynetwork.com/cb1082b19269584f275682ffff55e3c1/invoke.js\"></scr\' + \'ipt>\');"
-    + '</script>]]>',
-    '<![CDATA[<div id="ezoic-pub-ad-placeholder-165"></div>]]>',
-    '<![CDATA[<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2362701595854272"'
+    + "document.write('<scr' + 'ipt type=\"text/javascript\" src=\"http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/cb1082b19269584f275682ffff55e3c1/invoke.js\"></scr' + 'ipt>');"
+    + '</script>',
+    '<div id="ezoic-pub-ad-placeholder-165"></div>',
+    '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2362701595854272"'
     + ' crossorigin="anonymous"></script>'
     + '<ins class="adsbygoogle"'
     + ' style="display:block"'
@@ -22,7 +22,7 @@ function displayRandomAd() {
     + ' data-full-width-responsive="true"></ins>'
     + '<script>'
     + '(adsbygoogle = window.adsbygoogle || []).push({});'
-    + '</script>]]>'
+    + '</script>'
   ];
 
   // Randomly select an ad code from the array
